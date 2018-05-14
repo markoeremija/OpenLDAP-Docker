@@ -1,0 +1,58 @@
+dn: uid=testuser,ou=people,dc=amres,dc=ac,dc=rs
+objectClass: schacEntryMetadata
+objectClass: schacExperimentalOC
+objectClass: schacEmployeeInfo
+objectClass: schacContactLocation
+objectClass: schacLinkageIdentifiers
+objectClass: schacPersonalCharacteristics
+objectClass: eduPerson
+objectClass: inetOrgPerson
+cn: Test User
+sn: User
+displayName: Test User
+eduPersonAffiliation: member
+eduPersonOrgDN: o=Example Organization,dc=amres,dc=ac,dc=rs
+eduPersonOrgUnitDN: ou=Example Organizational Unit,o=Example Organization,dc=amres,dc=ac,dc=rs
+givenName: Test
+l: Rome
+mail: testuser@example.org
+o: Example Organization
+ou: Example Organizational Unit
+postalCode: 00000
+schacDateOfBirth: 20170501
+schacHomeOrganization: amres.ac.rs
+schacHomeOrganizationType: urn:schac:homeOrganizationType:it:other
+schacPersonalPosition: urn:schac:personalPosition:IT:example.org:Example Position
+schacPersonalUniqueID: urn:schac:personalUniqueID:IT:CF:TSTUSR17F08G321G
+schacPlaceOfBirth: Rome
+schacYearOfBirth: 2017
+st: Rome
+street: Example Street 1
+telephoneNumber: +398324732194
+uid: testuser
+
+dn: cn=default,ou=policies,dc=amres,dc=ac,dc=rs
+objectClass: pwdPolicy
+objectClass: person
+objectClass: top
+cn: default
+sn: dummy value
+pwdAttribute: userPassword
+pwdMinAge: 0
+pwdMaxAge: 0
+pwdMinLength: 8
+pwdInHistory: 5
+pwdAllowUserChange: TRUE
+pwdMustChange: TRUE
+pwdLockout: TRUE
+pwdMaxFailure: 5
+pwdFailureCountInterval: 30
+pwdExpireWarning: 600
+pwdSafeModify: TRUE
+
+dn: cn=idpuser,ou=system,dc=amres,dc=ac,dc=rs
+objectClass: inetOrgPerson
+cn: idpuser
+sn: idpuser
+givenName: idpuser
+userPassword: password

@@ -1,0 +1,27 @@
+dn: ou=groups,dc=amres,dc=ac,dc=rs
+changeType: add
+ou: Groups
+description: All people in organisation
+objectclass: organizationalUnit
+objectclass: top
+
+dn: ou=policies,dc=amres,dc=ac,dc=rs
+changeType: add
+ou: Policies
+description: All people in organisation
+objectclass: organizationalUnit
+objectclass: top
+
+dn: ou=people,dc=amres,dc=ac,dc=rs
+changeType: add
+ou: People
+description: All people in organisation
+objectclass: organizationalUnit
+objectclass: top
+
+dn: ou=system,dc=amres,dc=ac,dc=rs
+changeType: add
+ou: System
+description: All people in organisation
+objectclass: organizationalUnit
+objectclass: top
